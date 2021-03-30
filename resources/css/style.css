@@ -215,7 +215,7 @@ header {
     position: absolute;
     width: 1140px;
     top: 50%;
-    left: 40%;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -266,6 +266,12 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22;
+}
+
+.quote{
+    background-color: #e67e22;
+    padding: .5rem 1rem;
+    border-radius: 200px;
 }
 
 
